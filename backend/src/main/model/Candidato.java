@@ -12,8 +12,6 @@ public class Candidato {
     private boolean enOferta;
     private boolean fichado;
 
-    public static final int MAX_EN_OFERTA = 4;
-
     public Candidato(String nombre, String apodo, long precioFichaje, TRol especialidad){
         if(nombre == null) throw new IllegalArgumentException("El nombre no puede ser nulo");
         if(especialidad == null) throw new IllegalArgumentException("La especialidad no puede ser nula");
